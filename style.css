@@ -1,0 +1,46 @@
+body {
+    font-family: monospace;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.section {
+    border: 1px solid #334155;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.header {
+    padding: 15px;
+    background: #1e293b;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.header:hover {
+    background: #334155;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: #020617;
+}
+
+.content.open {
+    padding: 15px;
+}
+
+pre {
+    white-space: pre-wrap;
+    margin: 0;
+}
