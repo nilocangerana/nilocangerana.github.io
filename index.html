@@ -112,7 +112,7 @@ This system manages the player’s inventory through a dual-layer architecture c
 The local inventory handles client-side representation and UI interactions, while the data inventory manages authoritative item data and logical state.
 This separation ensures clean data handling and improves multiplayer compatibility by allowing the server to store and validate only structured inventory data, while the client focuses on presentation and user interaction.
 
-- Item Database: Items are stored and retrieved via unique IDs. Item data supports polymorphic item types such as equipment, consumables, and miscellaneous items, allowing a unified inventory system for all item categories.
+- Item Database: Items are stored and retrieved via unique IDs. Item data supports polymorphic item types such as equipment, consumables, and miscellaneous items, allowing an unified inventory system for all item categories.
 - Drag & Drop System: Enables intuitive player-driven inventory management through UI interactions.
 - Server-Side Inventory Validation: Backend systems process and validate client inventory actions, ensuring consistency between the local and authoritative data inventories. Clients send interaction intents, and the server reconstructs and validates the resulting state.
 </pre></div>
