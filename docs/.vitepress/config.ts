@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Nilo Cangerana - Portfolio',
-  base: '/nilocangerana.github.io/',
+  base: '/',
   appearance: false,
 
   themeConfig: {
