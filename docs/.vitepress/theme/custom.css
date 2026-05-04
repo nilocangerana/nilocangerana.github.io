@@ -1,0 +1,52 @@
+:root {
+  --vp-c-bg: #262c35;
+  --vp-c-bg-alt: #262c35;
+  --vp-c-bg-soft: #262c35;
+
+   --vp-c-text-1: #e5e5e5; 
+  --vp-c-text-2: #b5b5b5; 
+  --vp-c-text-3: #7a7a7a;
+}
+
+.VPNav {
+  background-color: #181d24 !important;
+  border-bottom: none !important;
+  backdrop-filter: none !important;
+}
+
+.header-anchor {
+  display: none !important;
+}
+
+
+.VPContent {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.VPDoc.has-sidebar,
+.VPDoc.has-aside {
+  grid-template-columns: 1fr !important;
+}
+
+
+.VPDoc {
+  margin: 0 auto !important;
+  max-width: 900px !important;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.vp-doc a {
+  color: #4ea1ff !important;
+  text-decoration: underline !important;
+}
+
+.vp-doc a:hover {
+  color: #82c4ff !important;
+}
