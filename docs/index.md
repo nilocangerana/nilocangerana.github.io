@@ -12,11 +12,11 @@ Strong emphasis is placed on modular design, clear system responsibilities, and 
 ## 🖥️ Showcase
 <div class="video-row">
   <video autoplay loop muted playsinline>
-    <source src="./videos/character_controller.mp4" type="video/mp4">
+    <source src="/videos/character_controller.mp4" type="video/mp4">
   </video>
 
   <video autoplay loop muted playsinline>
-    <source src="./videos/character_customization.mp4" type="video/mp4">
+    <source src="/videos/character_customization.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -68,11 +68,11 @@ Each equipment type implements its own behavior through polymorphism, allowing s
 ## 🖥️ Showcase
 <div class="video-row">
   <video autoplay loop muted playsinline>
-    <source src="./videos/pathfinding_1.mp4" type="video/mp4">
+    <source src="/videos/pathfinding_1.mp4" type="video/mp4">
   </video>
 
   <video autoplay loop muted playsinline>
-    <source src="./videos/pathfinding_2.mp4" type="video/mp4">
+    <source src="/videos/pathfinding_2.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -152,7 +152,7 @@ while other systems are server-authoritative (e.g., gameplay logic and validatio
 
 ## 🖥️ Showcase
 <video autoplay loop muted playsinline>
-  <source src="./videos/inventory_1.mp4" type="video/mp4">
+  <source src="/videos/inventory_1.mp4" type="video/mp4">
 </video>
 
 ---
@@ -190,11 +190,11 @@ This approach allows new systems to become persistable without modifying the cor
 ## 🖥️ Showcase
 <div class="video-row">
   <video autoplay loop muted playsinline>
-    <source src="./videos/weather_1.mp4" type="video/mp4">
+    <source src="/videos/weather_1.mp4" type="video/mp4">
   </video>
 
   <video autoplay loop muted playsinline>
-    <source src="./videos/time_1.mp4" type="video/mp4">
+    <source src="/videos/time_1.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -220,7 +220,7 @@ Each weather state exposes event-driven callbacks, enabling other systems to rea
 
 ## 🖥️ Showcase
 <video autoplay loop muted playsinline>
-  <source src="./videos/engine_tool_1.mp4" type="video/mp4">
+  <source src="/videos/engine_tool_1.mp4" type="video/mp4">
 </video>
 
 ---
@@ -242,11 +242,11 @@ These tools focus on automating repetitive asset preparation tasks and supportin
 ## 🖥️ Showcase
 <div class="video-row">
   <video autoplay loop muted playsinline>
-    <source src="./videos/UI_System_1.mp4" type="video/mp4">
+    <source src="/videos/UI_System_1.mp4" type="video/mp4">
   </video>
 
   <video autoplay loop muted playsinline>
-    <source src="./videos/UI_System_2.mp4" type="video/mp4">
+    <source src="/videos/UI_System_2.mp4" type="video/mp4">
   </video>
 </div>
 

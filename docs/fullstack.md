@@ -4,14 +4,14 @@
 
 ## Showcase
 
-<a href="./images/img1.png" target="_blank"><img src="./images/img1.png" /></a>
-<a href="./images/img2.png" target="_blank"><img src="./images/img2.png" /></a>
-<a href="./images/img3.png" target="_blank"><img src="./images/img3.png" /></a>
-<a href="./images/img4.png" target="_blank"><img src="./images/img4.png" /></a>
-<a href="./images/img5.png" target="_blank"><img src="./images/img5.png" /></a>
-<a href="./images/img6.png" target="_blank"><img src="./images/img6.png" /></a>
-<a href="./images/img7.png" target="_blank"><img src="./images/img7.png" /></a>
-<a href="./images/img8.png" target="_blank"><img src="./images/img8.png" /></a>
+<a href="/images/img1.png" target="_blank"><img src="/images/img1.png" /></a>
+<a href="/images/img2.png" target="_blank"><img src="/images/img2.png" /></a>
+<a href="/images/img3.png" target="_blank"><img src="/images/img3.png" /></a>
+<a href="/images/img4.png" target="_blank"><img src="/images/img4.png" /></a>
+<a href="/images/img5.png" target="_blank"><img src="/images/img5.png" /></a>
+<a href="/images/img6.png" target="_blank"><img src="/images/img6.png" /></a>
+<a href="/images/img7.png" target="_blank"><img src="/images/img7.png" /></a>
+<a href="/images/img8.png" target="_blank"><img src="/images/img8.png" /></a>
 
 <!--
 [![img1](/images/img1.png)](/images/img1.png)
