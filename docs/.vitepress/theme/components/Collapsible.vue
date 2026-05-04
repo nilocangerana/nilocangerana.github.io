@@ -116,9 +116,15 @@ const isOpen = ref(false)
   gap: 16px;
 }
 
-.inner :deep(.video-row video) {
+/*.inner :deep(.video-row video) {
   flex: 1;
   border-radius: 8px;
+}*/
+
+.inner :deep(.video-row video) {
+  width: calc(50% - 8px);
+  border-radius: 10px;
+  display: block;
 }
 
 .inner :deep(img) {

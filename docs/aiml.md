@@ -2,7 +2,7 @@
 
 Artificial Intelligence and Machine Learning portfolio focused on data-driven modeling and classical AI algorithms, including classification, neural networks, and performance evaluation using standard ML pipelines.
 
-<Collapsible title="CNN-Based Semantic Segmentation for Video Frame Analysis 🎞️">
+<Collapsible title="CNN-Based Semantic Segmentation for Vehicle Detection 🎞️">
 
 ## 🖥️ Showcase
 <video class="video-full" autoplay loop muted playsinline>
@@ -17,16 +17,18 @@ Artificial Intelligence and Machine Learning portfolio focused on data-driven mo
     <source src="/videos/cnn_3.mp4" type="video/mp4">
 </video>
 
-- [CNN-based vehicle detection in video data(PT-BR)](https://bdta.abcd.usp.br/item/003085102)
+- [CNN-based vehicle detection in video data (PT-BR)](https://bdta.abcd.usp.br/item/003085102)
 - [GitHub Repository](https://github.com/nilocangerana/tcc-unet-2021)
+- <a href="/documents/DLCNN-Nilo.pdf" target="_blank" rel="noopener noreferrer">View PDF (PT-BR) - Direct Link</a>
+
 
 ---
 
-Computer vision and Deep Learning project implementing a full pipeline for semantic segmentation of vehicles using video data and CNNs, including data annotation, preprocessing, model training, evaluation, and result analysis.
+Computer Vision and Deep Learning project made with Python, implementing a full pipeline for semantic segmentation of vehicles using video data and CNNs, including data annotation, preprocessing, model training, evaluation, and result analysis.
 
 ### 🔧 Features
-- Data Annotation and augmentation.
-- Video data preprocessing and frame extraction
+- Data annotation and augmentation.
+- Video data preprocessing and frame extraction.
 - Design and tuning of convolutional neural network architectures(Unet, FCN).
 - Model training and optimization.
 - Model evaluation and performance metrics analysis.
@@ -41,7 +43,7 @@ Computer vision and Deep Learning project implementing a full pipeline for seman
 - [GitHub Repository - Neural Networks](https://github.com/nilocangerana/projetosRedesNeurais-2021)
 
 ---
-Projects developed for Data Science and Neural Networks courses, involving machine learning pipelines with data preprocessing, feature extraction, model training and evaluation, and implementation of classifiers (KNN) and neural network architectures (MLP, CNN).
+Projects developed for Data Science and Neural Networks courses, built with Python, involving machine learning pipelines with data preprocessing, feature extraction, model training and evaluation, and implementation of classifiers (KNN) and neural network architectures (MLP, CNN).
 
 </Collapsible>
 

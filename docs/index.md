@@ -109,6 +109,11 @@ NPC movement is handled using a hybrid approach: A* pathfinding for independent 
 <Collapsible title="Player Input Action/Combat Execution ⚔️">
 
 ## 🖥️ Showcase
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="/videos/combat_1.mp4" type="video/mp4">
+  </video>
+</div>
 
 ---
 
@@ -130,6 +135,9 @@ This design enables a wide range of gameplay actions, such as projectiles, suppo
 <Collapsible title="Multiplayer Support 🌐">
 
 ## 🖥️ Showcase
+<video class="video-full" autoplay loop muted playsinline>
+    <source src="/videos/mp_1.mp4" type="video/mp4">
+</video>
 
 ---
 
