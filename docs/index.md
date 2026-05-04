@@ -1,6 +1,6 @@
 # 🎮 Game Development
 
-My Game Development Portfolio focused on building robust and scalable gameplay systems.
+Game development portfolio focused on building robust and scalable gameplay systems.
 
 This portfolio highlights the core architecture of an unannounced project, including multiplayer support, AI systems, combat design, and player-driven systems such as inventory and customization.
 

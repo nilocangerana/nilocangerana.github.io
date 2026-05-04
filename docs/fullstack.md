@@ -1,8 +1,10 @@
-# 💻 FullStack Web Development
+# 💻 Full-Stack Web Development
 
-<Collapsible title="FullStack Customer Registration System">
+Web development portfolio involving full-stack applications and database integration, focusing on frontend interfaces, backend logic, and data persistence.
 
-## Showcase
+<Collapsible title="Full-Stack Customer Registration System 📝">
+
+## 🖥️ Showcase
 
 <a href="/images/img1.png" target="_blank"><img src="/images/img1.png" /></a>
 <a href="/images/img2.png" target="_blank"><img src="/images/img2.png" /></a>
@@ -13,19 +15,8 @@
 <a href="/images/img7.png" target="_blank"><img src="/images/img7.png" /></a>
 <a href="/images/img8.png" target="_blank"><img src="/images/img8.png" /></a>
 
-<!--
-[![img1](/images/img1.png)](/images/img1.png)
-![img2](/images/img2.png)
-![img3](/images/img3.png)
-![img4](/images/img4.png)
-![img5](/images/img5.png)
-![img6](/images/img6.png)
-![img7](/images/img7.png)
-![img8](/images/img8.png) -->
-
 ---
-
-Full-stack customer registration system built with Laravel, integrating a MySQL database for persistent storage and developed within a XAMPP local server environment. The application is deployed over a local network, allowing access from multiple machines connected via Wi-Fi or LAN. Includes both front-end interface and backend logic for user data management.
+Full-stack customer registration system built with Laravel and MySQL. Deployed in a local network environment using XAMPP, enabling multi-device access over LAN or Wi-Fi. Includes both frontend interface and backend logic for user data management.
 
 ### 🔧 Features
 - Authentication system (login and access control)
@@ -33,6 +24,23 @@ Full-stack customer registration system built with Laravel, integrating a MySQL 
 - Asset registration linked to customers.
 - Data visualization for registered customers and assets.
 - Report generation (documents/export).
-- Relational database design (MySQL)
+- Relational database Architecture.
+
+</Collapsible>
+
+<Collapsible title="Full-Stack E-Commerce Project 🛒">
+
+## 🖥️ Showcase
+
+- [GitHub Repository](https://github.com/nilocangerana/projetoWEB-2020)
+- [Figma MockUp](https://www.figma.com/design/8nXv0L7PmW7SEVV4ejNahK/MockUp-Projeto-Web-E-Commerce?node-id=0-1&p=f)
+
+---
+
+Full-stack e-commerce web project developed using HTML, CSS, JavaScript, Node.js, and MongoDB. 
+
+The system supports product and service browsing, shopping cart management, user authentication with role-based access (client and administrator), and complete CRUD operations for users and products. 
+
+Clients can purchase products/services, manage their cart, and update personal information, while administrators can manage users and inventory through a dedicated dashboard. The system integrates both server-side persistence (MongoDB) and client-side storage (localStorage) for session and cart management.
 
 </Collapsible>

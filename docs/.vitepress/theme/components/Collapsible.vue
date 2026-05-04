@@ -103,6 +103,14 @@ const isOpen = ref(false)
   display: block;
 }
 
+.inner :deep(.video-full) {
+  width: 80%;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
 .inner :deep(.video-row) {
   display: flex;
   gap: 16px;

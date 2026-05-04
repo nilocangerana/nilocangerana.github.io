@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'GameDev', link: '/' },
       { text: 'FullStackDev', link: '/fullstack' },
+      { text: 'AI / Machine Learning', link: '/aiml' },
       { text: 'Other', link: '/other' }
     ],
     sidebar: undefined
