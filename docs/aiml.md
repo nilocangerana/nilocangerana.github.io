@@ -27,7 +27,7 @@ Artificial Intelligence and Machine Learning portfolio focused on data-driven mo
 Computer Vision and Deep Learning project made with Python, implementing a full pipeline for semantic segmentation of vehicles using video data and CNNs, including data annotation, preprocessing, model training, evaluation, and result analysis.
 
 ### 🔧 Features
-- Data annotation and augmentation.
+- Data augmentation.
 - Video data preprocessing and frame extraction.
 - Design and tuning of convolutional neural network architectures(Unet, FCN).
 - Model training and optimization.
