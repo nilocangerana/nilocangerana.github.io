@@ -271,3 +271,19 @@ A set of functional and responsive user interface systems designed to support co
 - **Shop UI**: Displays item listings, pricing, and purchase information for in-game trading systems.
 - **Event Log UI**: Tracks and displays real-time gameplay events such as item acquisition.
 </Collapsible>
+
+<!-- 6 -->
+<Collapsible title="Backend API for Player Data Tracking & Analysis 📈">
+
+This system provides a standalone backend API for collecting player telemetry data and bug reports from the game.
+
+Built in C++ using the Boost library, with SQLite for persistent storage, the API operates independently from Unity and can be integrated with any client.
+
+The collected data enables player behavior analysis, gameplay insights, and efficient identification and resolution of reported issues.
+
+- **REST API** built with Boost.Beast (HTTP server).
+- **SQLite database** for persistent storage.
+- Engine-agnostic design (not tied to Unity).
+- Modular routing system for scalable endpoints.
+
+</Collapsible>
