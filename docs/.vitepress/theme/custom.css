@@ -53,30 +53,33 @@ video {
 
 
 /* button look */
-.button-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 300px;
-}
+.button-list a.vp-button {
+  display: block;
+  padding: 15px;
+  border-radius: 12px;
 
-.vp-button {
-  display: block; 
-  padding: 15px; 
-  border-radius: 12px; 
-  
   background: #263f49;
-  color: #ddd !important; 
-  
-  text-align: left; 
-  text-decoration: none !important;
+  color: #ddd;
+
+  text-align: left;
   font-weight: bold;
 
-  border: 2px solid #485357; 
-  
+  border: 2px solid #485357;
+
+  text-decoration: none;
+
   transition: background 0.2s ease;
 }
 
-.vp-button:hover {
+/* override ONLY inside button-list */
+.button-list a.vp-button:link,
+.button-list a.vp-button:visited,
+.button-list a.vp-button:hover,
+.button-list a.vp-button:active {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.button-list a.vp-button:hover {
   background: #385864;
 }

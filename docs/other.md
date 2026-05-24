@@ -1,3 +1,5 @@
+<a href="/index" class="vp-button">Home</a>
+
 # 📁 Other Projects
 
 - [GitHub](https://github.com/nilocangerana)

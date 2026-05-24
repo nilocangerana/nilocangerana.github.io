@@ -1,3 +1,5 @@
+<a href="/index" class="vp-button">Home</a>
+
 # 💻 Full-Stack Web Development
 
 Web development portfolio involving full-stack applications and database integration, focusing on frontend interfaces, backend logic, and data persistence.

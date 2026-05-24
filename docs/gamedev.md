@@ -1,3 +1,5 @@
+<a href="/index" class="vp-button">Home</a>
+
 # 🎮 Game Development
 
 Game development portfolio focused on building robust and scalable gameplay systems.
