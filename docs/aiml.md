@@ -1,4 +1,4 @@
-<a href="/index" class="vp-button">🔙 Home</a>
+<a href="/index">🔙 Home</a>
 
 # 🤖 Artificial Intelligence and Machine Learning
 

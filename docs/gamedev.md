@@ -1,4 +1,4 @@
-<a href="/index" class="vp-button">🔙 Home</a>
+<a href="/index">🔙 Home</a>
 
 # 🎮 Game Development
 
