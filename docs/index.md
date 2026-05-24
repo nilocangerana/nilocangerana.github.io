@@ -2,8 +2,8 @@
 **Nilo Cangerana** - Computer Engineer - Developer Portfolio.
 
 <div class="button-list">
-  <a href="#" class="vp-button">Game Development</a>
-  <a href="#" class="vp-button">Full Stack Development</a>
-  <a href="#" class="vp-button">AI/Machine Learning</a>
-  <a href="#" class="vp-button">Other Projects</a>
+  <a href="/gamedev" class="vp-button">Game Development</a>
+  <a href="/fullstack" class="vp-button">Full Stack Development</a>
+  <a href="/aiml" class="vp-button">AI/Machine Learning</a>
+  <a href="/other" class="vp-button">Other Projects</a>
 </div>
