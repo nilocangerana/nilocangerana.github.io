@@ -277,7 +277,7 @@ A set of functional and responsive user interface systems designed to support co
 
 This system provides a standalone backend API for collecting player telemetry data and bug reports from the game.
 
-Built in C++ using the Boost library, with SQLite for persistent storage, the API operates independently from Unity and can be integrated with any client.
+Built in **C++** using the Boost library, with SQLite for persistent storage, the API operates independently from Unity and can be integrated with any client.
 
 The collected data enables player behavior analysis, gameplay insights, and efficient identification and resolution of reported issues.
 
