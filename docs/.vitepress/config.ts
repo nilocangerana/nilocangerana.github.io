@@ -24,7 +24,8 @@ export default defineConfig({
     logo: undefined,
     outline: false,
     nav: [
-      { text: 'GameDev', link: '/' },
+      { text: 'Home', link: '/' },
+      { text: 'GameDev', link: '/gamedev' },
       { text: 'FullStackDev', link: '/fullstack' },
       { text: 'AI / Machine Learning', link: '/aiml' },
       { text: 'Other', link: '/other' }
