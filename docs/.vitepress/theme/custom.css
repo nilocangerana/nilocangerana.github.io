@@ -50,3 +50,27 @@ video {
 .vp-doc a:hover {
   color: #82c4ff !important;
 }
+
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+}
+
+/* simulate VitePress button look */
+.vp-button {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #263f49;;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.vp-button:hover {
+  background: #385864;
+}
