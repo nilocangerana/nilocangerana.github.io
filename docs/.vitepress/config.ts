@@ -1,6 +1,18 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  lang: 'en-US',
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US'
+    },
+    pt: {
+      label: 'Português',
+      lang: 'pt-BR'
+    }
+  },
+  
   title: 'Nilo Cangerana - Portfolio',
   appearance: false,
   head: [
