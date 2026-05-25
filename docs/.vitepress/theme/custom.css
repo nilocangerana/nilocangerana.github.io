@@ -52,6 +52,10 @@ video {
 }
 
 
+.VPMenu * {
+  color: #000000 !important;
+}
+
 /* button look */
 .button-list {
   display: flex;
@@ -60,15 +64,15 @@ video {
   max-width: 300px;
 }
 
-.vp-button {
+.vp-doc a.vp-button {
   display: block; 
   padding: 15px; 
   border-radius: 12px; 
   
   background: #263f49;
-  color: #ddd !important; 
+  color: #ffffff !important; 
   
-  text-align: left; 
+  text-align: center; 
   text-decoration: none !important;
   font-weight: bold;
 
@@ -77,6 +81,8 @@ video {
   transition: background 0.2s ease;
 }
 
-.vp-button:hover {
+.vp-doc a.vp-button:hover {
   background: #385864;
+  color: #ffffff !important;
+  text-decoration: none !important;
 }

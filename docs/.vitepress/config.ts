@@ -4,16 +4,35 @@ export default defineConfig({
   lang: 'en-US',
   locales: {
     root: {
-      label: 'English',
+      label: '🇺🇸 English',
       lang: 'en-US',
+      title: 'Nilo Cangerana - Portfolio',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'GameDev', link: '/gamedev' },
+          { text: 'FullStackDev', link: '/fullstack' },
+          { text: 'AI / Machine Learning', link: '/aiml' },
+          { text: 'Other', link: '/other' }
+        ]
+      }
     },
     pt: {
-      label: 'Português',
+      label: '🇧🇷 Português',
       lang: 'pt-BR',
+      title: 'Nilo Cangerana - Portfólio',
+      themeConfig: {
+        nav: [
+          { text: 'Início', link: '/pt/' },
+          { text: 'GameDev', link: '/pt/gamedev' },
+          { text: 'FullStackDev', link: '/pt/fullstack' },
+          { text: 'AI / Machine Learning', link: '/pt/aiml' },
+          { text: 'Outros', link: '/pt/other' }
+        ]
+      }
     }
   },
   
-  title: 'Nilo Cangerana - Portfolio',
   appearance: false,
   head: [
     [
@@ -35,13 +54,6 @@ export default defineConfig({
   themeConfig: {
     logo: undefined,
     outline: false,
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'GameDev', link: '/gamedev' },
-      { text: 'FullStackDev', link: '/fullstack' },
-      { text: 'AI / Machine Learning', link: '/aiml' },
-      { text: 'Other', link: '/other' }
-    ],
     sidebar: undefined
   },
 })
