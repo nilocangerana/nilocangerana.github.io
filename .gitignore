@@ -24,3 +24,7 @@ node_modules
 *.sw?
 
 draft.txt
+
+.vitepress/cache
+docs/.vitepress/cache
+docs/.vitepress/dist
