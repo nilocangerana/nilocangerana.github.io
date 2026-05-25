@@ -5,11 +5,11 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: 'en-US'
+      lang: 'en-US',
     },
     pt: {
       label: 'Português',
-      lang: 'pt-BR'
+      lang: 'pt-BR',
     }
   },
   
@@ -43,5 +43,5 @@ export default defineConfig({
       { text: 'Other', link: '/other' }
     ],
     sidebar: undefined
-  }
+  },
 })

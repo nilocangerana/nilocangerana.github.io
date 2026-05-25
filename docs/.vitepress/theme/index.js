@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
+import { useRoute } from 'vitepress'
 import Collapsible from './components/Collapsible.vue'
 //import ThemeToggle from './components/ThemeToggle.vue'
 import LangToggle from './components/LangToggle.vue'
@@ -13,6 +14,7 @@ export default {
     app.component('LangToggle', LangToggle)
   },
 
+  //Toogle
   Layout() {
   return h(DefaultTheme.Layout, null, {
     'nav-bar-content-before': () => h('div', { style: 'display:flex; gap:10px;' }, [

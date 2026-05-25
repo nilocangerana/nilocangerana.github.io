@@ -33,6 +33,6 @@ Project developed for a Database course using Java, Oracle DB, and SQL, focusing
 
 ---
 
-Unity simulation of evolutionary algorithms with neural networks, implementing population evolution across generations using selection, crossover, and mutation.
+Unity simulation of evolutionary algorithms with neural networks, implementing population evolution across generations using natural selection, crossover, and mutation.
 
 </Collapsible>

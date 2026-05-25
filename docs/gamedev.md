@@ -130,8 +130,8 @@ The architecture is divided into three main layers:
 A dedicated context object encapsulates action parameters and feeds them into the execution pipeline. Based on the action type, the Execution Controller triggers the appropriate entry point, applies shared logic, and delegates the final behavior to the action itself.
 
 This design enables a wide range of gameplay actions, such as projectiles, support spells, and utility abilities, while maintaining a consistent and reusable execution flow.
-</Collapsible>
 
+</Collapsible>
 
 <!-- 4 -->
 <Collapsible title="Multiplayer Support 🌐">
@@ -272,12 +272,12 @@ A set of functional and responsive user interface systems designed to support co
 - **Event Log UI**: Tracks and displays real-time gameplay events such as item acquisition.
 </Collapsible>
 
-<!-- 6 -->
+<!-- 10 -->
 <Collapsible title="Backend API for Player Data Tracking & Analysis 📈">
 
 This system provides a standalone backend API for collecting player telemetry data and bug reports from the game.
 
-Built in **C++** using the Boost library, with SQLite for persistent storage, the API operates independently from Unity and can be integrated with any client.
+Built in **C++** using Boost and SQLite for persistent storage, with multithreading to handle heavy request loads. The API operates independently from Unity and can be integrated with any client.
 
 The collected data enables player behavior analysis, gameplay insights, and efficient identification and resolution of reported issues.
 
