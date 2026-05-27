@@ -180,17 +180,28 @@ This separation ensures clean data handling and improves multiplayer compatibili
 </Collapsible>
 
 <!-- 6 -->
-<Collapsible title="Persistent Data / Save/Load Game 💾">
+<Collapsible title="Shaders Effects ✨">
 
-This system is responsible for persisting game state across sessions through a modular, interface-driven architecture.
+## 🖥️ Showcase
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="/videos/shader_1.mp4" type="video/mp4">
+  </video>
 
-A dedicated persistence interface defines what data must be serialized. Any system requiring persistence implements this interface to expose its save and load logic.
+  <video autoplay loop muted playsinline>
+    <source src="/videos/shader_2.mp4" type="video/mp4">
+  </video>
+</div>
 
-A central Save Controller iterates through all registered persistent objects and invokes their respective save/load methods, ensuring a unified and scalable data persistence pipeline.
+---
+Real-time visual effects developed using Unity’s rendering pipeline.
 
-Only essential game state data is stored, while non-critical or derived values are reconstructed at runtime to reduce storage overhead and improve flexibility.
+Built with a combination of Shader Graph, HLSL, and procedural techniques to create dynamic and reusable effects.
 
-This approach allows new systems to become persistable without modifying the core save/load pipeline.
+- **Shader Graph & HLSL** for flexible and performant visual logic.
+- **Procedural Mesh Generation** to dynamically modify geometry at runtime.
+- **Texture + Shader Blending** to create varied and layered effects.
+- **Material-driven Effects** for easy integration across different game objects.
 
 </Collapsible>
 
@@ -273,6 +284,21 @@ A set of functional and responsive user interface systems designed to support co
 </Collapsible>
 
 <!-- 10 -->
+<Collapsible title="Persistent Data / Save/Load Game 💾">
+
+This system is responsible for persisting game state across sessions through a modular, interface-driven architecture.
+
+A dedicated persistence interface defines what data must be serialized. Any system requiring persistence implements this interface to expose its save and load logic.
+
+A central Save Controller iterates through all registered persistent objects and invokes their respective save/load methods, ensuring a unified and scalable data persistence pipeline.
+
+Only essential game state data is stored, while non-critical or derived values are reconstructed at runtime to reduce storage overhead and improve flexibility.
+
+This approach allows new systems to become persistable without modifying the core save/load pipeline.
+
+</Collapsible>
+
+<!-- 11 -->
 <Collapsible title="Backend API for Player Data Tracking & Analysis 📈">
 
 This system provides a standalone backend API for collecting player telemetry data and bug reports from the game.

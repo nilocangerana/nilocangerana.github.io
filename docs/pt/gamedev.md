@@ -177,17 +177,29 @@ Essa separação garante um tratamento de dados mais limpo e melhora a compatibi
 </Collapsible>
 
 <!-- 6 -->
-<Collapsible title="Persistência de Dados / Sistema de Save/Load 💾">
+<Collapsible title="Efeitos de Shader ✨">
 
-Este sistema é responsável por persistir o estado do jogo entre sessões por meio de uma arquitetura modular baseada em interfaces.
+## 🖥️ Showcase
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="/videos/shader_1.mp4" type="video/mp4">
+  </video>
 
-Uma interface de persistência dedicada define quais dados devem ser serializados. Qualquer sistema que necessite de persistência implementa essa interface para expor sua lógica de salvamento e carregamento.
+  <video autoplay loop muted playsinline>
+    <source src="/videos/shader_2.mp4" type="video/mp4">
+  </video>
+</div>
 
-Um controlador central de Save percorre todos os objetos registrados como persistentes e executa seus respectivos métodos de save/load, garantindo um pipeline de persistência de dados unificado e escalável.
+---
 
-Apenas dados essenciais do estado do jogo são armazenados, enquanto valores não críticos ou derivados são reconstruídos em tempo de execução para reduzir o uso de armazenamento e aumentar a flexibilidade.
+Efeitos visuais em tempo real desenvolvidos utilizando o pipeline de renderização da Unity.
 
-Essa abordagem permite que novos sistemas se tornem persistentes sem a necessidade de modificar o núcleo do pipeline de save/load.
+Construídos com a combinação de Shader Graph, HLSL e técnicas procedurais para criar efeitos dinâmicos e reutilizáveis.
+
+- **Shader Graph & HLSL** para lógica visual flexível e performática.  
+- **Geração de Mesh Procedural** para modificar a geometria dinamicamente em tempo de execução.  
+- **Combinação de Texturas + Shaders** para criar efeitos variados e em camadas.  
+- **Efeitos baseados em Materials** para fácil integração em diferentes objetos do jogo. 
 
 </Collapsible>
 
@@ -269,6 +281,21 @@ Um conjunto de sistemas de interface de usuário funcionais e responsivos, proje
 </Collapsible>
 
 <!-- 10 -->
+<Collapsible title="Persistência de Dados / Sistema de Save/Load 💾">
+
+Este sistema é responsável por salvar o estado do jogo entre sessões por meio de uma arquitetura modular baseada em interfaces.
+
+Uma interface de persistência dedicada define quais dados devem ser serializados. Qualquer sistema que necessite de persistência implementa essa interface para expor sua lógica de salvamento e carregamento.
+
+Um controlador central de Save percorre todos os objetos registrados como persistentes e executa seus respectivos métodos de save/load, garantindo um pipeline de persistência de dados unificado e escalável.
+
+Apenas dados essenciais do estado do jogo são armazenados, enquanto valores não críticos ou derivados são reconstruídos em tempo de execução para reduzir o uso de armazenamento e aumentar a flexibilidade.
+
+Essa abordagem permite que novos sistemas se tornem persistentes sem a necessidade de modificar o núcleo do pipeline de save/load.
+
+</Collapsible>
+
+<!-- 11 -->
 <Collapsible title="API Backend para Análise de Dados de Jogadores 📈">
 
 Este sistema fornece uma API backend independente para coletar dados de telemetria de jogadores e relatórios de bugs do jogo.
