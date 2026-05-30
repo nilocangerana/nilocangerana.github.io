@@ -301,15 +301,18 @@ This approach allows new systems to become persistable without modifying the cor
 <!-- 11 -->
 <Collapsible title="Backend API for Player Data Tracking & Analysis 📈">
 
-This system provides a standalone backend API for collecting player telemetry data and bug reports from the game.
+Designed and implemented a high-performance backend API for telemetry tracking and bug reporting.
 
-Built in **C++** using Boost and SQLite for persistent storage, with multithreading to handle heavy request loads. The API operates independently from Unity and can be integrated with any client.
+Built in **C++** using **Boost** for networking, **SQLite** for persistent storage, **RabbitMQ** for asynchronous message processing.
 
-The collected data enables player behavior analysis, gameplay insights, and efficient identification and resolution of reported issues.
+The system features a multithreaded worker architecture, enabling efficient concurrent request handling. It supports both synchronous responses and asynchronous processing (via message queues), allowing scalable, reliable, and high-throughput data ingestion.
 
-- **REST API** built with Boost.Beast (HTTP server).
+Designed for a scalable, containerized, multi-service architecture, where the API, RabbitMQ broker, and background consumer run as separate **Docker** containers.
+
+- **C++ REST API** built with Boost (HTTP server).
 - **SQLite database** for persistent storage.
-- Engine-agnostic design (not tied to Unity).
-- Modular routing system for scalable endpoints.
+- **Modular routing** system for scalable endpoints.
+- **Multithreaded worker model** using a thread pool and task queue for efficient concurrent request processing.
+- **Asynchronous processing via RabbitMQ** enabling non-blocking workflows and deferred task execution.
 
 </Collapsible>

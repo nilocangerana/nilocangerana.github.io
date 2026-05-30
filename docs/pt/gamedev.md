@@ -298,15 +298,18 @@ Essa abordagem permite que novos sistemas se tornem persistentes sem a necessida
 <!-- 11 -->
 <Collapsible title="API Backend para Análise de Dados de Jogadores 📈">
 
-Este sistema fornece uma API backend independente para coletar dados de telemetria de jogadores e relatórios de bugs do jogo.
+Design e implementação de uma API backend de alta performance para rastreamento de telemetria e reporte de bugs.
 
-Desenvolvido em **C++** utilizando Boost e SQLite para armazenamento persistente, com multithreading para lidar com cargas altas de requisições. A API opera de forma independente do Unity e pode ser integrada com qualquer cliente.
+Desenvolvido em **C++**, utilizando **Boost** para networking, **SQLite** para armazenamento persistente e **RabbitMQ** para processamento assíncrono de mensagens.
 
-Os dados coletados permitem análise de comportamento dos jogadores, geração de insights de gameplay e identificação eficiente e resolução de problemas reportados.
+O sistema possui uma arquitetura multithread com workers, permitindo o processamento eficiente de múltiplas requisições simultâneas. Suporta tanto respostas síncronas quanto processamento assíncrono (via filas de mensagens), garantindo ingestão de dados escalável, confiável e de alta vazão.
 
-- **API REST** construída com Boost.Beast (servidor HTTP).
+Projetado para uma arquitetura escalável, containerizada e baseada em múltiplos serviços, onde a API, o broker RabbitMQ e o consumidor em background executam como containers independentes com **Docker**.
+
+- **API REST em C++** construída com Boost (servidor HTTP).
 - **Banco de dados SQLite** para armazenamento persistente.
-- Design independente de engine (não acoplado ao Unity).
-- Sistema modular de roteamento para endpoints escaláveis.
+- **Sistema de rotas modular**, permitindo fácil expansão de endpoints.
+- **Modelo multithread** com thread pool e fila de tarefas para processamento concorrente eficiente.
+- **Processamento assíncrono com RabbitMQ**, permitindo execução não bloqueante e tarefas assíncronas.
 
 </Collapsible>
