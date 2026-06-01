@@ -321,7 +321,7 @@ This approach allows new systems to become persistable without modifying the cor
 
 ---
 
-Designed and implemented a high-performance backend API for telemetry tracking and bug reporting.
+Designed and implemented a high-performance backend API for ingame data telemetry tracking and bug reporting.
 
 Built in **C++** using **Boost** for networking, **SQLite** for persistent storage, and **RabbitMQ** for asynchronous request processing.
 

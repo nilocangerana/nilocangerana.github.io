@@ -318,7 +318,7 @@ Essa abordagem permite que novos sistemas se tornem persistentes sem a necessida
 
 ---
 
-Design e implementação de uma API backend de alto desempenho para telemetria e reporte de bugs.
+Design e implementação de uma API backend de alto desempenho para telemetria de dados ingame e reporte de bugs.
 
 Desenvolvido em **C++**, utilizando **Boost** para networking, **SQLite** para armazenamento persistente e **RabbitMQ** para processamento assíncrono de requisições.
 
