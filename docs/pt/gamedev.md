@@ -158,9 +158,15 @@ O jogo utiliza um modelo híbrido de autoridade, onde certos sistemas são contr
 <Collapsible title="Sistema de Gerenciamento de Inventário 📦">
 
 ## 🖥️ Demonstração
-<video autoplay loop muted playsinline>
-  <source src="/videos/inventory_1.mp4" type="video/mp4">
-</video>
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="/videos/inventory_1.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay loop muted playsinline>
+    <source src="/videos/inventory_2.mp4" type="video/mp4">
+  </video>
+</div>
 
 ---
 
@@ -194,7 +200,7 @@ Essa separação garante um tratamento de dados mais limpo e melhora a compatibi
 
 Efeitos visuais em tempo real desenvolvidos utilizando o pipeline de renderização da Unity.
 
-Construídos com a combinação de Shader Graph, HLSL e técnicas procedurais para criar efeitos dinâmicos e reutilizáveis.
+Construídos com a combinação de **Shader Graph**, **HLSL** e técnicas procedurais para criar efeitos dinâmicos e reutilizáveis.
 
 - **Shader Graph & HLSL** para lógica visual flexível e performática.  
 - **Geração de Mesh Procedural** para modificar a geometria dinamicamente em tempo de execução.  
@@ -296,20 +302,38 @@ Essa abordagem permite que novos sistemas se tornem persistentes sem a necessida
 </Collapsible>
 
 <!-- 11 -->
-<Collapsible title="API Backend para Análise de Dados de Jogadores 📈">
+<Collapsible title="C++ API Backend para Análise de Dados de Jogadores 📈">
 
-Design e implementação de uma API backend de alta performance para rastreamento de telemetria e reporte de bugs.
+## 🖥️ Demonstração
+<video class="video-full" autoplay loop muted playsinline>
+    <source src="/videos/backend_api_1.mp4" type="video/mp4">
+</video>
 
-Desenvolvido em **C++**, utilizando **Boost** para networking, **SQLite** para armazenamento persistente e **RabbitMQ** para processamento assíncrono de mensagens.
+<a href="/images/telemetry_1.png" target="_blank"><img src="/images/telemetry_1.png" /></a>
+<a href="/images/telemetry_2.png" target="_blank"><img src="/images/telemetry_2.png" /></a>
+<a href="/images/telemetry_3.png" target="_blank"><img src="/images/telemetry_3.png" /></a>
+<a href="/images/telemetry_4.png" target="_blank"><img src="/images/telemetry_4.png" /></a>
+<a href="/images/telemetry_5.png" target="_blank"><img src="/images/telemetry_5.png" /></a>
+<a href="/images/telemetry_6.png" target="_blank"><img src="/images/telemetry_6.png" /></a>
 
-O sistema possui uma arquitetura multithread com workers, permitindo o processamento eficiente de múltiplas requisições simultâneas. Suporta tanto respostas síncronas quanto processamento assíncrono (via filas de mensagens), garantindo ingestão de dados escalável, confiável e de alta vazão.
+---
 
-Projetado para uma arquitetura escalável, containerizada e baseada em múltiplos serviços, onde a API, o broker RabbitMQ e o consumidor em background executam como containers independentes com **Docker**.
+Design e implementação de uma API backend de alto desempenho para telemetria e reporte de bugs.
 
-- **API REST em C++** construída com Boost (servidor HTTP).
-- **Banco de dados SQLite** para armazenamento persistente.
-- **Sistema de rotas modular**, permitindo fácil expansão de endpoints.
-- **Modelo multithread** com thread pool e fila de tarefas para processamento concorrente eficiente.
-- **Processamento assíncrono com RabbitMQ**, permitindo execução não bloqueante e tarefas assíncronas.
+Desenvolvido em **C++**, utilizando **Boost** para networking, **SQLite** para armazenamento persistente e **RabbitMQ** para processamento assíncrono de requisições.
+
+O sistema apresenta uma arquitetura multi-thread com contextos de execução separados para IO e banco de dados, permitindo um processamento eficiente e não bloqueante de requisições. As requisições de entrada são roteadas por meio de um dispatcher modular que determina o modo de execução, permitindo que endpoints leves sejam executados em threads de IO, enquanto operações dependentes do banco de dados são delegadas a threads de trabalho dedicadas ou fluxos assíncronos via RabbitMQ.
+
+Para cargas de trabalho assíncronas, rotas selecionadas publicam mensagens no RabbitMQ, onde o serviço consumidor processa utilizando uma pool de workers, que delegam a função a uma thread dedicada de escrita no banco de dados, garantindo acesso seguro e controlado para operações de escrita.
+
+Suporta tanto respostas síncronas quanto fluxos assíncronos via filas de mensagens, possibilitando alta escalabilidade, confiabilidade e alto throughput de ingestão de dados.
+
+Projetado para uma arquitetura multi-serviço containerizada, onde a API, o broker RabbitMQ e os consumidores de background rodam como serviços independentes em containers **Docker**.
+
+- **API REST em C++** construída com Boost (Asio/Beast HTTP server).
+- **Modelo de execução multithread** incluindo threads de IO, threads de leitura do banco de dados e uma pipeline separada de processamento no lado do consumidor para operações pesadas.
+- **Despacho de execução baseado em rotas (IO vs DB vs fila assíncrona)** para utilização otimizada de recursos.
+- **Banco de dados SQLite** com acesso concorrente seguro e operações de escrita controladas.
+- **Processamento assíncrono via RabbitMQ** com consumidores multi-thread e gerenciamento dedicado de escrita no banco de dados.
 
 </Collapsible>
