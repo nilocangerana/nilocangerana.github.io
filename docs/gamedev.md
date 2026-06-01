@@ -161,9 +161,15 @@ while other systems are server-authoritative (e.g., gameplay logic and validatio
 <Collapsible title="Inventory Management System 📦">
 
 ## 🖥️ Showcase
-<video autoplay loop muted playsinline>
-  <source src="/videos/inventory_1.mp4" type="video/mp4">
-</video>
+<div class="video-row">
+  <video autoplay loop muted playsinline>
+    <source src="/videos/inventory_1.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay loop muted playsinline>
+    <source src="/videos/inventory_2.mp4" type="video/mp4">
+  </video>
+</div>
 
 ---
 
@@ -196,7 +202,7 @@ This separation ensures clean data handling and improves multiplayer compatibili
 ---
 Real-time visual effects developed using Unity’s rendering pipeline.
 
-Built with a combination of Shader Graph, HLSL, and procedural techniques to create dynamic and reusable effects.
+Built with a combination of **Shader Graph**, **HLSL**, and procedural techniques to create dynamic and reusable effects.
 
 - **Shader Graph & HLSL** for flexible and performant visual logic.
 - **Procedural Mesh Generation** to dynamically modify geometry at runtime.
@@ -299,20 +305,38 @@ This approach allows new systems to become persistable without modifying the cor
 </Collapsible>
 
 <!-- 11 -->
-<Collapsible title="Backend API for Player Data Tracking & Analysis 📈">
+<Collapsible title="C++ Backend API for Player Data Tracking & Analysis 📈">
+
+## 🖥️ Showcase
+<video class="video-full" autoplay loop muted playsinline>
+    <source src="/videos/backend_api_1.mp4" type="video/mp4">
+</video>
+
+<a href="/images/telemetry_1.png" target="_blank"><img src="/images/telemetry_1.png" /></a>
+<a href="/images/telemetry_2.png" target="_blank"><img src="/images/telemetry_2.png" /></a>
+<a href="/images/telemetry_3.png" target="_blank"><img src="/images/telemetry_3.png" /></a>
+<a href="/images/telemetry_4.png" target="_blank"><img src="/images/telemetry_4.png" /></a>
+<a href="/images/telemetry_5.png" target="_blank"><img src="/images/telemetry_5.png" /></a>
+<a href="/images/telemetry_6.png" target="_blank"><img src="/images/telemetry_6.png" /></a>
+
+---
 
 Designed and implemented a high-performance backend API for telemetry tracking and bug reporting.
 
-Built in **C++** using **Boost** for networking, **SQLite** for persistent storage, **RabbitMQ** for asynchronous message processing.
+Built in **C++** using **Boost** for networking, **SQLite** for persistent storage, and **RabbitMQ** for asynchronous request processing.
 
-The system features a multithreaded worker architecture, enabling efficient concurrent request handling. It supports both synchronous responses and asynchronous processing (via message queues), allowing scalable, reliable, and high-throughput data ingestion.
+The system features a multi-threaded architecture with separated IO and database execution contexts, enabling efficient, non-blocking request handling. Incoming requests are routed through a modular dispatcher that determines execution strategy, allowing lightweight endpoints to run on IO threads while database-bound operations are offloaded to dedicated worker threads or asynchronous workflows via RabbitMQ.
 
-Designed for a scalable, containerized, multi-service architecture, where the API, RabbitMQ broker, and background consumer run as separate **Docker** containers.
+For write-heavy and asynchronous workloads, selected routes publish messages to RabbitMQ, where a separate consumer service processes them using a multi-threaded worker pool and offloads persistence to a dedicated database writer thread, ensuring safe and controlled write access.
 
-- **C++ REST API** built with Boost (HTTP server).
-- **SQLite database** for persistent storage.
-- **Modular routing** system for scalable endpoints.
-- **Multithreaded worker model** using a thread pool and task queue for efficient concurrent request processing.
-- **Asynchronous processing via RabbitMQ** enabling non-blocking workflows and deferred task execution.
+Supports both synchronous responses and asynchronous workflows via message queues, enabling scalable, reliable, and high-throughput data ingestion.
+
+Designed for a containerized, multi-service architecture, where the API, RabbitMQ broker, and background consumers run as independent **Docker** services.
+
+- **C++ REST API** built with Boost (Asio/Beast HTTP server).
+- **Threaded execution model** with IO threads, read-only DB workers, and a separate consumer-side processing pipeline for heavy operations.
+- **Route-based execution dispatch (IO vs DB vs async queue)** for optimal resource utilization.
+- **SQLite database** with safe concurrent access and controlled write operations.
+- **Asynchronous processing via RabbitMQ** with multi-threaded consumers and dedicated DB write handling.
 
 </Collapsible>
