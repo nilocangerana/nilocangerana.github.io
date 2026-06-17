@@ -113,13 +113,9 @@ const isOpen = ref(false)
 
 .inner :deep(.video-row) {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
-
-/*.inner :deep(.video-row video) {
-  flex: 1;
-  border-radius: 8px;
-}*/
 
 .inner :deep(.video-row video) {
   width: calc(50% - 8px);
