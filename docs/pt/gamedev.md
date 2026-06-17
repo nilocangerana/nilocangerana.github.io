@@ -75,6 +75,10 @@ Cada tipo de equipamento implementa seu próprio comportamento via polimorfismo,
   <video autoplay loop muted playsinline>
     <source src="/videos/pathfinding_2.mp4" type="video/mp4">
   </video>
+
+  <video autoplay loop muted playsinline>
+    <source src="/videos/pathfinding_3.mp4" type="video/mp4">
+  </video>
 </div>
 
 ---
