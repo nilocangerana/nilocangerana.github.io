@@ -1,5 +1,6 @@
 # Início
-**Nilo Cangerana** - Engenheiro da Computação - Portfólio de Desenvolvedor.
+**Nilo Cangerana** - Engenheiro da Computação - Portfólio de Desenvolvedor. <br>
+**Email** - niloconrado2008@gmail.com
 
 <div class="button-list">
   <a href="./gamedev" class="vp-button">Desenvolvimento de Jogos</a>
