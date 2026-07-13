@@ -4,6 +4,26 @@
 
 - [GitHub](https://github.com/nilocangerana)
 
+<Collapsible title="Custom JIT Emulator in C++">
+
+## 🖥️ Showcase
+- [GitHub Repository](https://github.com/nilocangerana/cpp_jit-emulator)
+
+---
+
+This project is a custom-built emulator written in C++ that features a Just-In-Time (JIT) compiler for executing a simplified instruction set. The emulator dynamically translates bytecode into native x86 machine code at runtime.
+
+The project focuses on low-level systems concepts such as memory management, instruction decoding, and runtime code emission, serving as a foundation for more advanced JIT and emulator development.
+
+### 🔧 Features
+- Modular architecture with decoupled components (Emulator, CPU, Memory), allowing easy extension and swapping.
+- Support for multiple CPU registers.
+- Instruction set including Load, Add, Jump, Conditional Jump (JZ), NOP, and Halt.
+- Runtime code generation with executable memory allocation.
+- Basic block compilation with caching to avoid recompilation.
+
+</Collapsible>
+
 <Collapsible title="Data Structures Project 🧩">
 
 ## 🖥️ Showcase
