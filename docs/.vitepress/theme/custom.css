@@ -41,6 +41,10 @@
   text-align: left;
 }
 
+.vp-doc p {
+  text-align: justify;
+}
+
 video {
   width: 100%;
   border-radius: 8px;
