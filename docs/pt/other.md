@@ -4,7 +4,7 @@
 
 - [GitHub](https://github.com/nilocangerana)
 
-<Collapsible title="Emulador JIT em C++">
+<Collapsible title="Emulador JIT em C++ 🔲">
 
 ## 🖥️ Showcase
 - [GitHub Repository](https://github.com/nilocangerana/cpp_jit-emulator)

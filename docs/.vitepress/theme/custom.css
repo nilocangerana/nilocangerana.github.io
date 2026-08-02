@@ -32,8 +32,10 @@
 
 .VPDoc {
   margin: 0 auto !important;
-  max-width: 900px !important;
-  width: 100%;
+  max-width: 1000px !important;
+  /*width: 100%;*/
+  padding: 0 20px;
+  text-align: center;
 }
 
 video {
@@ -60,8 +62,9 @@ video {
 .button-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  max-width: 300px;
+  gap: 12px;
+  max-width: 320px;
+  margin: 40px auto;
 }
 
 .vp-doc a.vp-button {
