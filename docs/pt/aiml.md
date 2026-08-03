@@ -7,15 +7,15 @@ Portfólio de Inteligência Artificial e Machine Learning com foco em modelagem 
 <Collapsible title="Segmentação Semântica Baseada em CNN para Detecção de Veículos 🎞️">
 
 ## 🖥️ Demonstração
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.png">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/cnn_1.mp4" type="video/mp4">
 </video>
 
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.png">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/cnn_2.mp4" type="video/mp4">
 </video>
 
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.png">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/cnn_3.mp4" type="video/mp4">
 </video>
 

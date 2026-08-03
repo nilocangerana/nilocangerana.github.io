@@ -13,11 +13,11 @@ Strong emphasis is placed on modular design, clear system responsibilities, and 
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/character_controller.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/character_customization.mp4" type="video/mp4">
   </video>
 </div>
@@ -69,19 +69,19 @@ Each equipment type implements its own behavior through polymorphism, allowing s
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/pathfinding_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/pathfinding_2.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/pathfinding_3.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/pathfinding_4.mp4" type="video/mp4">
   </video>
 </div>
@@ -120,7 +120,7 @@ NPC movement is handled using a hybrid approach: A* pathfinding for independent 
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/combat_1.mp4" type="video/mp4">
   </video>
 </div>
@@ -145,7 +145,7 @@ This design enables a wide range of gameplay actions, such as projectiles, suppo
 <Collapsible title="Multiplayer Support 🌐">
 
 ## 🖥️ Showcase
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.png">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/mp_1.mp4" type="video/mp4">
 </video>
 
@@ -170,11 +170,11 @@ while other systems are server-authoritative (e.g., gameplay logic and validatio
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/inventory_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/inventory_2.mp4" type="video/mp4">
   </video>
 </div>
@@ -198,11 +198,11 @@ This separation ensures clean data handling and improves multiplayer compatibili
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/shader_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/shader_2.mp4" type="video/mp4">
   </video>
 </div>
@@ -224,11 +224,11 @@ Built with a combination of **Shader Graph**, **HLSL**, and procedural technique
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/weather_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/time_1.mp4" type="video/mp4">
   </video>
 </div>
@@ -254,7 +254,7 @@ Each weather state exposes event-driven callbacks, enabling other systems to rea
 <Collapsible title="Custom Engine Tools 🛠️">
 
 ## 🖥️ Showcase
-<video autoplay loop muted playsinline poster="/images/video_preview.png">
+<video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
   <source src="/videos/engine_tool_1.mp4" type="video/mp4">
 </video>
 
@@ -276,11 +276,11 @@ These tools focus on automating repetitive asset preparation tasks and supportin
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/UI_System_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline poster="/images/video_preview.png">
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/UI_System_2.mp4" type="video/mp4">
   </video>
 </div>
@@ -316,7 +316,7 @@ This approach allows new systems to become persistable without modifying the cor
 <Collapsible title="C++ Backend API for Player Data Tracking & Analysis 📈">
 
 ## 🖥️ Showcase
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.png">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
     <source src="/videos/backend_api_1.mp4" type="video/mp4">
 </video>
 
