@@ -13,11 +13,11 @@ Grande ênfase é dada ao design modular, responsabilidades bem definidas entre 
 
 ## 🖥️ Demonstração
 <div class="video-row">
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/character_controller.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/character_customization.mp4" type="video/mp4">
   </video>
 </div>
@@ -68,19 +68,19 @@ Cada tipo de equipamento implementa seu próprio comportamento via polimorfismo,
 
 ## 🖥️ Demonstração
 <div class="video-row">
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/pathfinding_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/pathfinding_2.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/pathfinding_3.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/pathfinding_4.mp4" type="video/mp4">
   </video>
 </div>
@@ -119,7 +119,7 @@ A movimentação dos NPCs é baseada em uma abordagem híbrida: pathfinding A* p
 
 ## 🖥️ Demonstração
 <div class="video-row">
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/combat_1.mp4" type="video/mp4">
   </video>
 </div>
@@ -144,7 +144,7 @@ Este design permite uma ampla variedade de ações de gameplay, como projéteis,
 <Collapsible title="Suporte Multijogador 🌐">
 
 ## 🖥️ Demonstração
-<video class="video-full" autoplay loop muted playsinline>
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/mp_1.mp4" type="video/mp4">
 </video>
 
@@ -167,11 +167,11 @@ O jogo utiliza um modelo híbrido de autoridade, onde certos sistemas são contr
 
 ## 🖥️ Demonstração
 <div class="video-row">
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/inventory_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/inventory_2.mp4" type="video/mp4">
   </video>
 </div>
@@ -195,11 +195,11 @@ Essa separação garante um tratamento de dados mais limpo e melhora a compatibi
 
 ## 🖥️ Showcase
 <div class="video-row">
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/shader_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/shader_2.mp4" type="video/mp4">
   </video>
 </div>
@@ -222,11 +222,11 @@ Construídos com a combinação de **Shader Graph**, **HLSL** e técnicas proced
 
 ## 🖥️ Demonstração
 <div class="video-row">
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/weather_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/time_1.mp4" type="video/mp4">
   </video>
 </div>
@@ -251,7 +251,7 @@ Cada estado climático expõe callbacks orientados a eventos, permitindo que out
 <Collapsible title="Ferramentas Personalizadas de Engine 🛠️">
 
 ## 🖥️ Demonstração
-<video autoplay loop muted playsinline>
+<video autoplay loop muted playsinline poster="/images/video_preview.png">
   <source src="/videos/engine_tool_1.mp4" type="video/mp4">
 </video>
 
@@ -273,11 +273,11 @@ Essas ferramentas focam na automação de tarefas repetitivas de preparação de
 
 ## 🖥️ Demonstração
 <div class="video-row">
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/UI_System_1.mp4" type="video/mp4">
   </video>
 
-  <video autoplay loop muted playsinline>
+  <video autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/UI_System_2.mp4" type="video/mp4">
   </video>
 </div>
@@ -313,7 +313,7 @@ Essa abordagem permite que novos sistemas se tornem persistentes sem a necessida
 <Collapsible title="C++ API Backend para Análise de Dados de Jogadores 📈">
 
 ## 🖥️ Demonstração
-<video class="video-full" autoplay loop muted playsinline>
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.png">
     <source src="/videos/backend_api_1.mp4" type="video/mp4">
 </video>
 
