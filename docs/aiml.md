@@ -7,15 +7,15 @@ Artificial Intelligence and Machine Learning portfolio focused on data-driven mo
 <Collapsible title="CNN-Based Semantic Segmentation for Vehicle Detection 🎞️">
 
 ## 🖥️ Showcase
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
     <source src="/videos/cnn_1.mp4" type="video/mp4">
 </video>
 
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
     <source src="/videos/cnn_2.mp4" type="video/mp4">
 </video>
 
-<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif" onloadeddata="this.classList.add('loaded')">
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
     <source src="/videos/cnn_3.mp4" type="video/mp4">
 </video>
 
