@@ -205,6 +205,14 @@ This separation ensures clean data handling and improves multiplayer compatibili
   <video autoplay loop muted playsinline poster="/images/video_preview.gif">
     <source src="/videos/shader_2.mp4" type="video/mp4">
   </video>
+
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/shader_3.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/shader_4.mp4" type="video/mp4">
+  </video>
 </div>
 
 ---
