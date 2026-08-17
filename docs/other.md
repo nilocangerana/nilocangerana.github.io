@@ -4,6 +4,37 @@
 
 - [GitHub](https://github.com/nilocangerana)
 
+
+<Collapsible title="Drone Simulation - Unreal Engine 🚀">
+## 🖥️ Showcase
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_1.mp4" type="video/mp4">
+</video>
+
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_2.mp4" type="video/mp4">
+</video>
+
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_3.mp4" type="video/mp4">
+</video>
+
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_4.mp4" type="video/mp4">
+</video>
+
+- [GitHub Repository](https://github.com/nilocangerana/UnrealPhysicPrototype)
+
+---
+
+A physics-based drone flight simulation developed in Unreal Engine. The implementation consists of throttle-controlled lift, pitch, roll, and yaw, using forces and torques applied through Unreal’s physics system. All systems were implemented using Unreal Engine's Blueprints.
+
+The stabilization system uses PD controllers (Proportional-Derivative controllers) to maintain the drone’s desired orientation while accounting for angular velocity. Local-axis flight controls ensure stable behavior regardless of the drone’s orientation.
+
+The project also includes visual rotor simulation, with dynamic rotor speeds based on throttle and flight input.
+
+</Collapsible>
+
 <Collapsible title="Custom JIT Emulator in C++ 🔲">
 
 ## 🖥️ Showcase

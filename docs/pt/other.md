@@ -4,6 +4,36 @@
 
 - [GitHub](https://github.com/nilocangerana)
 
+
+<Collapsible title="Simulação de Drone - Unreal Engine 🚀">
+## 🖥️ Showcase
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_1.mp4" type="video/mp4">
+</video>
+
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_2.mp4" type="video/mp4">
+</video>
+
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_3.mp4" type="video/mp4">
+</video>
+
+<video class="video-full" autoplay loop muted playsinline poster="/images/video_preview.gif">
+    <source src="/videos/drone_4.mp4" type="video/mp4">
+</video>
+
+- [GitHub Repository](https://github.com/nilocangerana/UnrealPhysicPrototype)
+
+---
+Um simulador de voo de drone com física realista, desenvolvido na Unreal Engine. A implementação conta com controle de aceleração usando a força de sustentação, além de pitch, roll e yaw. Forças e torques são aplicados através do sistema de física da Unreal. Todos os sistemas foram implementados utilizando o sistema de Blueprints da Unreal Engine.
+
+O sistema de estabilização utiliza controladores PD (Proporcional-Derivativo) para manter a orientação desejada do drone, levando em consideração sua velocidade angular. Os controles baseados nos eixos locais garantem um comportamento estável independentemente da orientação do drone.
+
+O projeto também inclui uma simulação visual dos rotores, com velocidades de rotação dinâmicas baseadas na força de sustentação aplicada e nos comandos de voo.
+</Collapsible>
+
+
 <Collapsible title="Emulador JIT em C++ 🔲">
 
 ## 🖥️ Showcase
