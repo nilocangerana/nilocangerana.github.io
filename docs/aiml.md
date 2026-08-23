@@ -38,6 +38,40 @@ Computer Vision and Deep Learning project made with Python, implementing a full 
 
 </Collapsible>
 
+<Collapsible title="Image Classifier with PyTorch Distributed Data Parallel Training 🔗">
+
+## 🖥️ Showcase
+
+<a href="/images/ddp_1.png" target="_blank"><img src="/images/ddp_1.png" /></a>
+<a href="/images/ddp_2.png" target="_blank"><img src="/images/ddp_2.png" /></a>
+<a href="/images/ddp_4.png" target="_blank"><img src="/images/ddp_4.png" /></a>
+<a href="/images/ddp_3.png" target="_blank"><img src="/images/ddp_3.png" /></a>
+<a href="/images/ddp_5.png" target="_blank"><img src="/images/ddp_5.png" /></a>
+<a href="/images/ddp_6.png" target="_blank"><img src="/images/ddp_6.png" /></a>
+<a href="/images/ddp_7.png" target="_blank"><img src="/images/ddp_7.png" /></a>
+<a href="/images/ddp_8.png" target="_blank"><img src="/images/ddp_8.png" /></a>
+<a href="/images/ddp_9.png" target="_blank"><img src="/images/ddp_9.png" /></a>
+
+- [GitHub Repository](https://github.com/nilocangerana/DDP_ImageClassifier_NN)
+
+---
+
+A distributed deep learning project built with Python and PyTorch, focused on implementing Distributed Data Parallel (DDP) training.
+
+The project implements a convolutional neural network for image classification using the CIFAR-10 dataset, with a custom training pipeline including dataset loading, GPU acceleration, loss calculation, optimization, and training monitoring.
+
+The main focus is distributed training: the model training process is designed to run across multiple processes and GPUs using PyTorch DDP, allowing each process to train on a different portion of the dataset while synchronizing model parameters during training.
+
+### 🔧 Features
+- Distributed training using PyTorch DDP.
+- Custom CNN image classification model.
+- GPU-accelerated training with CUDA.
+- Configurable training parameters through command-line arguments.
+- Modular training architecture with separate model, trainer and data components.
+- Designed to scale from single-GPU training to multi-process and multi-machine training.
+
+</Collapsible>
+
 <Collapsible title="Machine Learning and Data Science Projects 📈">
 
 ## 🖥️ Showcase
@@ -45,6 +79,7 @@ Computer Vision and Deep Learning project made with Python, implementing a full 
 - [GitHub Repository - Neural Networks](https://github.com/nilocangerana/projetosRedesNeurais-2021)
 
 ---
+
 Projects developed for Data Science and Neural Networks courses, built with Python, involving machine learning pipelines with data preprocessing, feature extraction, model training and evaluation, and implementation of classifiers (KNN) and neural network architectures (MLP, CNN).
 
 </Collapsible>
